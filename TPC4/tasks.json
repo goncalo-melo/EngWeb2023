@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Gonçalo Melo"
+    },
+    {
+      "id": "2",
+      "name": "Diog'Andante"
+    },
+    {
+      "id": "3",
+      "name": "Dudas"
+    },
+    {
+      "id": "4",
+      "name": "Abelheira"
+    }
+  ],
+  "tasks": [
+    {
+      "description": "EngWeb: TPC4",
+      "who": "1",
+      "duedate": "17/03/2023",
+      "done": "false",
+      "id": "__GWsHg"
+    },
+    {
+      "description": "Fisioterapia",
+      "who": "2",
+      "duedate": "20/03/2023",
+      "done": "false",
+      "id": "5vooPvM"
+    }
+  ]
+}

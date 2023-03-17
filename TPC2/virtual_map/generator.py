@@ -72,7 +72,7 @@ def city_page_generator(city, connections, dict):
     city_html += f"""
                                 </ul>
                                 </p>
-                                <address>[<a href="indice">Voltar ao Índice</a>]
+                                <address>[<a href="/">Voltar ao Índice</a>]
                             </td>
                         </table>
                     </td>
