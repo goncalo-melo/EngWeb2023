@@ -33,20 +33,20 @@ module.exports.addTask = task => {
 
 module.exports.editTask = task => {
     return axios.put("http://localhost:3000/tasks/" + task.id, task)
-        .then(response =>{
-            return response.data
-        })
-        .catch(error =>{
-            return error
-        })
+            .then(response =>{
+                return response.data
+            })
+            .catch(error =>{
+                return error
+            })
 }
 
 module.exports.deleteTask = id => {
     return axios.delete("http://localhost:3000/tasks/" + id)
-        .then(response=>{
-            return response.data
-        })
-        .catch(error =>{
-            return error
-        })
+            .then(response=>{
+                return response.data
+            })
+            .catch(error =>{
+                return error
+            })
 }

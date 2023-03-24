@@ -2,11 +2,13 @@ extends layout
 
 block content
   .w3-card-4 
-    header.w3-container.w3-purple
+    header.w3-container.w3-teal
       h2 Task Form
     form.w3-container(method="POST" action="/tasks/addTask")
+        input.w3-input.w3-border.w3-light-grey(type="hidden" name="id")
+
         label.w3-text-teal Description
-        input.w3-input.w3-border.w3-light-grey(type="text" name="description" )
+        input.w3-input.w3-border.w3-light-grey(type="text" name="description")
 
         br
         label.w3-text-teal Assigned To
@@ -14,16 +16,10 @@ block content
 
         br
         label.w3-text-teal Due Date
-        input.w3-input.w3-border.w3-light-grey(type="text" name="due_date" )
+        input.w3-input.w3-border.w3-light-grey(type="text" name="due_date")
 
-        br
-        label.w3-text-teal Status
-        input.w3-input.w3-border.w3-light-grey(type="text" name="status" )
+        input.w3-input.w3-border.w3-light-grey(type="hidden" name="status" value="false")
 
-        br
-        label.w3-text-teal ID
-        input.w3-input.w3-border.w3-light-grey(type="text" name="id")
-        
         br
         center 
         button.w3-btn.w3-teal.w3-round-large.w3-border(type="submit") Add          

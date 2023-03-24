@@ -1,53 +1,25 @@
 {
   "tasks": [
     {
-      "id": "1",
+      "id": 1,
       "description": "Fisioterapia",
       "assigned_to": "Gonçalo Melo",
-      "due_date": "20/03/2023",
+      "due_date": "04/04/2023",
       "status": "true"
     },
     {
-      "id": "3",
-      "description": "Trabalho de História",
-      "assigned_to": "Catarina Pinto",
-      "due_date": "25/04/2023",
+      "id": 2,
+      "description": "TPC6",
+      "assigned_to": "Alexandre Nobre",
+      "due_date": "01/04/2023",
       "status": "false"
     },
     {
-      "description": "turismo",
-      "assigned_to": "cxtrinx",
-      "due_date": "23/03/2024",
-      "status": "false",
-      "id": "6"
-    },
-    {
-      "description": "",
-      "assigned_to": "",
-      "due_date": "",
-      "status": "",
-      "id": "bymtGBS"
-    },
-    {
-      "description": "asf",
-      "assigned_to": "fsaf",
-      "due_date": "fdsaf",
-      "status": "saf",
-      "id": "12"
-    },
-    {
-      "description": "adfD",
-      "assigned_to": "ASFA",
-      "due_date": "FSABF",
-      "status": "FBHSQFJB",
-      "id": "FQWF"
-    },
-    {
-      "description": "",
-      "assigned_to": "",
-      "due_date": "",
-      "status": "",
-      "id": "roD5D4S"
+      "id": 3,
+      "description": "TPC7",
+      "assigned_to": "Diogo'Andante",
+      "due_date": "07/04/2023",
+      "status": "false"
     }
   ]
 }
