@@ -60,6 +60,7 @@ router.get('/tasks/editTask/:idTask', function(req, res, next) {
         })
 })
 
+
 /* GET Task Complete */
 router.get('/tasks/completeTask/:idTask', function(req, res, next) {
     var date = new Date().toISOString().substring(0, 16)

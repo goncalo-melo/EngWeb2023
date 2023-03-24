@@ -1,5 +1,4 @@
 var axios = require('axios')
-const { response } = require('express')
 
 module.exports.getTasks = () => {
     return axios.get('http://localhost:3000/tasks')
