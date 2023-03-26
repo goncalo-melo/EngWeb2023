@@ -1,13 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "description": "Fisioterapia",
-      "assigned_to": "Gonçalo Melo",
-      "due_date": "04/04/2023",
-      "status": "true"
-    },
-    {
       "id": 2,
       "description": "TPC6",
       "assigned_to": "Alexandre Nobre",
@@ -19,6 +12,34 @@
       "description": "TPC7",
       "assigned_to": "Diogo'Andante",
       "due_date": "07/04/2023",
+      "status": "false"
+    },
+    {
+      "id": 4,
+      "description": "Bilhar",
+      "assigned_to": "Rafael",
+      "due_date": "26/03/2023",
+      "status": "true"
+    },
+    {
+      "id": 5,
+      "description": "",
+      "assigned_to": "",
+      "due_date": "",
+      "status": "false"
+    },
+    {
+      "id": 6,
+      "description": "",
+      "assigned_to": "",
+      "due_date": "",
+      "status": "false"
+    },
+    {
+      "id": 7,
+      "description": "",
+      "assigned_to": "",
+      "due_date": "",
       "status": "false"
     }
   ]
