@@ -7,11 +7,9 @@ block content
     .w3-container
       br
       ul.w3-ul.w3-card-4(style="width:50%")
-        li #[b ID: ] #{t.id}
         li #[b Description: ] #{t.description}
         li #[b Assigned To: ] #{t.assigned_to}
         li #[b Due Date: ] #{t.due_date}
-        li #[b Status: ] #{t.status}
 
       button.w3-btn.w3-round.w3-margin.w3-green
         a(href="/tasks/deleteTask/"+t.id+"/confirm") Confirm

@@ -8,13 +8,6 @@
       "status": "true"
     },
     {
-      "id": 3,
-      "description": "TPC7",
-      "assigned_to": "Diogo'Andante",
-      "due_date": "07/04/2023",
-      "status": "false"
-    },
-    {
       "id": 4,
       "description": "Bilhar",
       "assigned_to": "Rafael",
@@ -23,24 +16,10 @@
     },
     {
       "id": 5,
-      "description": "",
-      "assigned_to": "",
-      "due_date": "",
-      "status": "false"
-    },
-    {
-      "id": 6,
-      "description": "",
-      "assigned_to": "",
-      "due_date": "",
-      "status": "false"
-    },
-    {
-      "id": 7,
-      "description": "",
-      "assigned_to": "",
-      "due_date": "",
-      "status": "false"
+      "description": "Livro FIXOLAS",
+      "assigned_to": "Diogo'Andante",
+      "due_date": "28/03/2023",
+      "status": "true"
     }
   ]
 }
